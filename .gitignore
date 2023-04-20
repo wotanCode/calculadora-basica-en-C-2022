@@ -1,0 +1,18 @@
+# Files without Extension
+*
+!/**/
+!*.*
+
+# OS Files
+**/.[Tt]humbs.db
+**/.DS_Store
+
+# Windows executable files
+**/*.exe
+
+# vscode temps
+.vscode/
+
+# debug and temps C files
+**/tempCodeRunnerFile.c
+*.dSYM/
