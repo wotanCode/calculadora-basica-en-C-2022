@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Ejecutar AdvanceCalculator",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/AdvanceCalculator",
+      "preLaunchTask": "C: gcc compilación de AdvanceCalculator",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "osx": {
+        "name": "OSX LLDB",
+        "type": "cppdbg",
+        "request": "launch",
+        "MIMode": "lldb",
+        "miDebuggerPath": "/Users/perdo.yanez/.vscode/extensions/ms-vscode.cpptools-1.14.5-darwin-arm64/debugAdapters/lldb-mi/bin/lldb-mi", // colocar aqui la ruta de la libreria lldb para macos
+        "program": "${workspaceFolder}/bin/AdvanceCalculator",
+      }
+    }
+  ]
+}
