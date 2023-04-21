@@ -1,0 +1,30 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C: gcc compilación de AdvanceCalculator",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-fdiagnostics-color=always", // Habilitar el color en los mensajes de diagnóstico del compilador
+        "-g", // Incluir información de depuración en el archivo compilado
+        "${workspaceFolder}/src/main.c", // Archivo a compilar (el archivo main.c en la carpeta src)
+        "-o", // Especificar el nombre del archivo de salida
+        "${workspaceFolder}/bin/AdvanceCalculator", // Nombre archivo de salida. Para sistemas windows agregar .exe al final
+        // De aquí en mas, agregar todos los archivos .c del proyecto
+        "${workspaceFolder}/src/view/view.c", // Agregar view.c a la lista de archivos
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Tarea generada por el depurador."
+    }
+  ],
+  "version": "2.0.0"
+}
