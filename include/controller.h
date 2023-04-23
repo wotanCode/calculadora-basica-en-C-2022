@@ -10,5 +10,6 @@ void divideMenuC();
 void moduleMenuC();
 void powMenuC();
 void rootMenuC();
+void logMenuC();
 
 #endif

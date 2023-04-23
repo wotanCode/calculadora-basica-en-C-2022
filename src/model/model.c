@@ -57,3 +57,15 @@ float root(float n1, float n2)
   }
   return (pow(n1, 1.0 / n2));
 }
+
+// // funcion para el lograitmo neperiano
+float naturalLogFn(float n1)
+{
+  return (log(n1));
+}
+
+// funcion para el logaritmo base variable
+float logFn(float n1, float n2)
+{
+  return (log(n1) / log(n2));
+}

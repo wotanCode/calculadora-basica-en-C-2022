@@ -45,7 +45,7 @@ void mainMenuC()
       break;
 
     case 8:
-      multiplyMenuC();
+      logMenuC();
       break;
 
     case 9:
@@ -265,6 +265,42 @@ void rootMenuC()
     case 1:
       getRootNumberOperation(&num1, &num2);
       result = root(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 0:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 0);
+}
+
+void logMenuC()
+{
+  float num1, num2, result;
+  int option;
+
+  do
+  {
+    logMenuV();
+    scanf("%d", &option);
+    switch (option)
+    {
+    case 1:
+      getNaturalLogarithNumberOperation(&num1);
+      result = naturalLogFn(num1); // AQUI
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 2:
+      getLogarithNumberOperation(&num1, &num2);
+      result = logFn(num2, num1);
       showResult(result);
       waitforUserInteraction();
       break;

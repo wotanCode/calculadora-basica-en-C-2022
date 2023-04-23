@@ -94,6 +94,16 @@ void rootMenuV()
   printf("Selecciona una opción: ");
 }
 
+void logMenuV()
+{
+  clearScreen();
+  printf("=== Menú de logaritmo ===\n");
+  printf("1. Logaritmo neperiano de un número\n");
+  printf("2. Logaritmo base variable de un número\n");
+  printf("0. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)
@@ -132,6 +142,20 @@ void getRootNumberOperation(float *number1, float *number2)
   printf("Ingresa el radicando:\n");
   scanf("%f", number1);
   printf("Ingresa el índice\n");
+  scanf("%f", number2);
+}
+
+void getNaturalLogarithNumberOperation(float *number1)
+{
+  printf("Ingresa el argumento:\n");
+  scanf("%f", number1);
+}
+
+void getLogarithNumberOperation(float *number1, float *number2)
+{
+  printf("Ingresa el argumento:\n");
+  scanf("%f", number1);
+  printf("Ingresa la base del logaritmo:\n");
   scanf("%f", number2);
 }
 
