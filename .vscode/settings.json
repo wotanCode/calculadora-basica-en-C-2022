@@ -1,5 +1,8 @@
 {
   "files.associations": {
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "view.h": "c",
+    "controller.h": "c",
+    "model.h": "c"
   }
 }

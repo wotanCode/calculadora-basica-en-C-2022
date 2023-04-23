@@ -11,7 +11,9 @@
         "-o", // Especificar el nombre del archivo de salida
         "${workspaceFolder}/bin/AdvanceCalculator", // Nombre archivo de salida. Para sistemas windows agregar .exe al final
         // De aquí en mas, agregar todos los archivos .c del proyecto
-        "${workspaceFolder}/src/view/view.c", // Agregar view.c a la lista de archivos
+        "${workspaceFolder}/src/view/view.c", // Agrega view.c a la lista de archivo a compilar
+        "${workspaceFolder}/src/controller/controller.c", // Agrega controller.c a la lista de archivos a compilar
+        "${workspaceFolder}/src/model/model.c", // Agrega model.c a la lista de archivos a compilar
       ],
       "options": {
         "cwd": "${workspaceFolder}"
