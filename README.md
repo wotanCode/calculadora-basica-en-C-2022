@@ -9,7 +9,7 @@ De avanzado solo tiene el nombre. Realmente esta es una calculadora básica que 
 
 ## Instalación y uso
 
-Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es compatible con cualquier sistema operativo, ya que no usa funciones específicas del sistema. Se adjunta en el proyecto la carpeta de .vscode con las configuraciones requeridas para su compilación automática usando el editor de visual studio code. Las siguientes instrucciones están diseñadas precisamente para bajo macOS y usando el editor. Si desea compilar usando otro editor o compilador, investiga por su cuenta.
+Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es compatible con cualquier sistema operativo, ya que no usa funciones específicas del sistema. Se adjunta en el proyecto la carpeta de .vscode con las configuraciones requeridas para su compilación automática usando el editor de visual studio code, aunque es posible que requieras de hacer algun cambio en las rutas para su correcta compilación. Las siguientes instrucciones están diseñadas precisamente para bajo macOS y usando el editor. Si desea compilar usando otro editor o compilador, investiga por su cuenta.
 
 1. Clona el repositorio con el siguiente comando:
 
