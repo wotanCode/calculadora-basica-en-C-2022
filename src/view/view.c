@@ -67,6 +67,15 @@ void divideMenuV()
   printf("Selecciona una opción: ");
 }
 
+void moduleMenuV()
+{
+  clearScreen();
+  printf("=== Menú de Modulo ===\n");
+  printf("1. Modulo de dos números\n");
+  printf("2. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)
@@ -82,6 +91,14 @@ void getBasicNumberOperation(float *number1, float *number2)
   scanf("%f", number1);
   printf("Ingresa el segundo numero:\n");
   scanf("%f", number2);
+}
+
+void getBasicIntegerOperation(int *number1, int *number2)
+{
+  printf("Ingresa el primer número:\n");
+  scanf("%d", number1);
+  printf("Ingresa el segundo número:\n");
+  scanf("%d", number2);
 }
 
 /*  SECCION: RESULTADOS */

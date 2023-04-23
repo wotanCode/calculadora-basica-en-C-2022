@@ -7,4 +7,6 @@ void subtractMenuC();
 void multiplyMenuC();
 void divideMenuC();
 
+void moduleMenuC();
+
 #endif

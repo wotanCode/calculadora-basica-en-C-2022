@@ -33,7 +33,7 @@ void mainMenuC()
       break;
 
     case 5:
-      multiplyMenuC();
+      moduleMenuC();
       break;
 
     case 6:
@@ -176,6 +176,37 @@ void divideMenuC()
     case 1:
       getBasicNumberOperation(&num1, &num2);
       result = divide(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 2:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 2);
+}
+
+// Controller para la sección de modulo.
+void moduleMenuC()
+{
+  int num1 = 0, num2 = 0, result;
+  int option;
+
+  do
+  {
+    moduleMenuV();
+    scanf("%d", &option);
+
+    switch (option)
+    {
+    case 1:
+      getBasicIntegerOperation(&num1, &num2);
+      result = module(num1, num2);
       showResult(result);
       waitforUserInteraction();
       break;

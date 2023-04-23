@@ -35,3 +35,9 @@ float divide(float n1, float n2)
 {
   return (n1 / n2);
 }
+
+// funcion para Modulo
+int module(int n1, int n2)
+{
+  return (n1 % n2);
+}
