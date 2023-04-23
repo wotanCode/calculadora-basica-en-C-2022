@@ -81,7 +81,7 @@ void addMenuC()
     switch (option)
     {
     case 1:
-      getBasicNumberOperation(&num1, &num2);
+      getBasicFloatNumberOperation(&num1, &num2);
       result = add(num1, num2);
       showResult(result);
       waitforUserInteraction();
@@ -112,7 +112,7 @@ void subtractMenuC()
     switch (option)
     {
     case 1:
-      getBasicNumberOperation(&num1, &num2);
+      getBasicFloatNumberOperation(&num1, &num2);
       result = subtract(num1, num2);
       showResult(result);
       waitforUserInteraction();
@@ -143,7 +143,7 @@ void multiplyMenuC()
     switch (option)
     {
     case 1:
-      getBasicNumberOperation(&num1, &num2);
+      getBasicFloatNumberOperation(&num1, &num2);
       result = multiply(num1, num2);
       showResult(result);
       waitforUserInteraction();
@@ -174,7 +174,7 @@ void divideMenuC()
     switch (option)
     {
     case 1:
-      getBasicNumberOperation(&num1, &num2);
+      getBasicFloatNumberOperation(&num1, &num2);
       result = divide(num1, num2);
       showResult(result);
       waitforUserInteraction();

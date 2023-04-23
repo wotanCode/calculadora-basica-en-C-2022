@@ -85,7 +85,7 @@ void getMenuOption(int *option)
 }
 
 // Operacion basica de dos numeros
-void getBasicNumberOperation(float *number1, float *number2)
+void getBasicFloatNumberOperation(float *number1, float *number2)
 {
   printf("Ingresa el primer numero:\n");
   scanf("%f", number1);
