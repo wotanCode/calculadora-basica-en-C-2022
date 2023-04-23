@@ -12,4 +12,6 @@ void powMenuC();
 void rootMenuC();
 void logMenuC();
 
+void aboutMenuC();
+
 #endif

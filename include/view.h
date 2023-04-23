@@ -16,6 +16,7 @@ void moduleMenuV();
 void powMenuV();
 void rootMenuV();
 void logMenuV();
+void aboutMenuV();
 
 // CAPTURADORES DE OPCIONES
 void getMenuOption(int *option);

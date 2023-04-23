@@ -49,7 +49,7 @@ void mainMenuC()
       break;
 
     case 9:
-      multiplyMenuC();
+      aboutMenuV();
       break;
 
     case 0:
@@ -308,6 +308,28 @@ void logMenuC()
     case 0:
       clearScreen();
       return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 0);
+}
+
+void aboutMenuC()
+{
+  int option;
+
+  do
+  {
+    aboutMenuV();
+    scanf("%d", &option);
+    switch (option)
+    {
+    case 0:
+      clearScreen();
+      return;
+
     default:
       printf("Opción inválida, intente de nuevo.\n");
       waitforUserInteraction();

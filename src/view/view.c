@@ -104,6 +104,16 @@ void logMenuV()
   printf("Selecciona una opción: ");
 }
 
+void aboutMenuV()
+{
+  clearScreen();
+  printf("=== Acerca de... ===\n");
+  printf("Este programa ha sido creado por Pedro Yanez\n");
+  printf("GITHUB: https://github.com/wotanCode\n");
+  printf("Repositorio del proyecto: https://github.com/wotanCode/calculadora-avanzada-en-C\n\n");
+  printf("LICENCIA: Unlicense");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)
