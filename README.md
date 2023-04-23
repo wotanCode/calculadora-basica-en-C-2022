@@ -14,7 +14,7 @@ Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es co
 1. Clona el repositorio con el siguiente comando:
 
     ```
-    git clone https://github.com/tu-usuario/calculadora-c.git
+    git clone https://github.com/tu-usuario/calculadora-avanzada-en-C.git
     ```
 
 2. Abre Visual Studio Code y carga el proyecto
@@ -29,4 +29,4 @@ Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es co
 
 ## Licencia
 
-Este proyecto está licenciado bajo la: Unlicence. Es decir que puedes usar este código para lo que quieras y no tienes por qué darme ningún crédito. No me lo agradezcas, es mi contribución para la humanidad. Consulta el archivo LICENSE para más detalles que se encuentra en este mismo proyecto para más detalles.
+Este proyecto está licenciado bajo la: Unlicence. Es decir que puedes usar este código para lo que quieras y no tienes por qué darme ningún crédito. No me lo agradezcas, es mi contribución para la humanidad. Consulta el archivo LICENSE para más detalles que se encuentra en este mismo proyecto.
