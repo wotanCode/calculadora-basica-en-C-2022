@@ -20,6 +20,10 @@ void mainMenuC()
       addMenuC();
       break;
 
+    case 2:
+      subtractMenuC();
+      break;
+
     case 0:
       printf("Saliendo del programa...\n");
       getchar();
@@ -28,6 +32,7 @@ void mainMenuC()
     default:
       printf("Opción inválida, intente de nuevo.\n");
       waitforUserInteraction();
+      clearScreen();
       break;
     }
 
@@ -50,6 +55,37 @@ void addMenuC()
     case 1:
       getBasicNumberOperation(&num1, &num2);
       result = add(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 2:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 2);
+}
+
+// Controller para la sección de Restar.
+void subtractMenuC()
+{
+  float num1, num2, result;
+  int option;
+
+  do
+  {
+    subtractMenuV();
+    scanf("%d", &option);
+
+    switch (option)
+    {
+    case 1:
+      getBasicNumberOperation(&num1, &num2);
+      result = subtract(num1, num2);
       showResult(result);
       waitforUserInteraction();
       break;

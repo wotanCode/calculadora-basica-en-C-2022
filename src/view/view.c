@@ -40,6 +40,15 @@ void addMenuV()
   printf("Selecciona una opción: ");
 }
 
+void subtractMenuV()
+{
+  clearScreen();
+  printf("=== Menú de Resta ===\n");
+  printf("1. Restar dos números\n");
+  printf("2. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)

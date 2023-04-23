@@ -3,5 +3,6 @@
 
 void mainMenuC();
 void addMenuC();
+void subtractMenuC();
 
 #endif
