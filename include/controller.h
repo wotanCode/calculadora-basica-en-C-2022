@@ -9,5 +9,6 @@ void divideMenuC();
 
 void moduleMenuC();
 void powMenuC();
+void rootMenuC();
 
 #endif

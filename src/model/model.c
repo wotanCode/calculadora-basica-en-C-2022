@@ -47,3 +47,13 @@ float powFn(float n1, float n2)
 {
   return (pow(n1, n2));
 }
+
+// funcion para Raiz
+float root(float n1, float n2)
+{
+  if (n2 == 2)
+  {
+    return (sqrt(n1));
+  }
+  return (pow(n1, 1.0 / n2));
+}

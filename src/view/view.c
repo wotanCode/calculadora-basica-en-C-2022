@@ -85,6 +85,15 @@ void powMenuV()
   printf("Selecciona una opción: ");
 }
 
+void rootMenuV()
+{
+  clearScreen();
+  printf("=== Menú de raices ===\n");
+  printf("1. Raiz de un número\n");
+  printf("0. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)
@@ -115,6 +124,14 @@ void getPowNumberOperation(float *number1, float *number2)
   printf("Ingresa numero:\n");
   scanf("%f", number1);
   printf("Ingresa la potencia\n");
+  scanf("%f", number2);
+}
+
+void getRootNumberOperation(float *number1, float *number2)
+{
+  printf("Ingresa el radicando:\n");
+  scanf("%f", number1);
+  printf("Ingresa el índice\n");
   scanf("%f", number2);
 }
 
