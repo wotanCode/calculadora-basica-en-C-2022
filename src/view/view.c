@@ -36,7 +36,7 @@ void addMenuV()
   clearScreen();
   printf("=== Menú de Suma ===\n");
   printf("1. Sumar dos números\n");
-  printf("2. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n");
   printf("Selecciona una opción: ");
 }
 
@@ -45,7 +45,7 @@ void subtractMenuV()
   clearScreen();
   printf("=== Menú de Resta ===\n");
   printf("1. Restar dos números\n");
-  printf("2. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n");
   printf("Selecciona una opción: ");
 }
 
@@ -54,7 +54,7 @@ void multiplyMenuV()
   clearScreen();
   printf("=== Menú de multiplicar ===\n");
   printf("1. Multiplicar dos números\n");
-  printf("2. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n");
   printf("Selecciona una opción: ");
 }
 
@@ -63,7 +63,7 @@ void divideMenuV()
   clearScreen();
   printf("=== Menú de dividir ===\n");
   printf("1. Dividir dos números\n");
-  printf("2. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n");
   printf("Selecciona una opción: ");
 }
 
@@ -72,7 +72,7 @@ void moduleMenuV()
   clearScreen();
   printf("=== Menú de Modulo ===\n");
   printf("1. Modulo de dos números\n");
-  printf("2. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n");
   printf("Selecciona una opción: ");
 }
 

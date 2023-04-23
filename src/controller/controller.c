@@ -87,7 +87,7 @@ void addMenuC()
       waitforUserInteraction();
       break;
 
-    case 2:
+    case 0:
       clearScreen();
       return;
     default:
@@ -95,7 +95,7 @@ void addMenuC()
       waitforUserInteraction();
       clearScreen();
     }
-  } while (option != 2);
+  } while (option != 0);
 }
 
 // Controller para la sección de Restar.
@@ -118,7 +118,7 @@ void subtractMenuC()
       waitforUserInteraction();
       break;
 
-    case 2:
+    case 0:
       clearScreen();
       return;
     default:
@@ -126,7 +126,7 @@ void subtractMenuC()
       waitforUserInteraction();
       clearScreen();
     }
-  } while (option != 2);
+  } while (option != 0);
 }
 
 // Controller para la sección de multiplicar.
@@ -149,7 +149,7 @@ void multiplyMenuC()
       waitforUserInteraction();
       break;
 
-    case 2:
+    case 0:
       clearScreen();
       return;
     default:
@@ -157,7 +157,7 @@ void multiplyMenuC()
       waitforUserInteraction();
       clearScreen();
     }
-  } while (option != 2);
+  } while (option != 0);
 }
 
 // Controller para la sección de dividir.
@@ -180,7 +180,7 @@ void divideMenuC()
       waitforUserInteraction();
       break;
 
-    case 2:
+    case 0:
       clearScreen();
       return;
     default:
@@ -188,7 +188,7 @@ void divideMenuC()
       waitforUserInteraction();
       clearScreen();
     }
-  } while (option != 2);
+  } while (option != 0);
 }
 
 // Controller para la sección de modulo.
@@ -211,7 +211,7 @@ void moduleMenuC()
       waitforUserInteraction();
       break;
 
-    case 2:
+    case 0:
       clearScreen();
       return;
     default:
@@ -219,5 +219,5 @@ void moduleMenuC()
       waitforUserInteraction();
       clearScreen();
     }
-  } while (option != 2);
+  } while (option != 0);
 }
