@@ -41,3 +41,9 @@ int module(int n1, int n2)
 {
   return (n1 % n2);
 }
+
+// funcion para potencia
+float powFn(float n1, float n2)
+{
+  return (pow(n1, n2));
+}

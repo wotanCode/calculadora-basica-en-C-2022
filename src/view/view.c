@@ -76,6 +76,15 @@ void moduleMenuV()
   printf("Selecciona una opción: ");
 }
 
+void powMenuV()
+{
+  clearScreen();
+  printf("=== Menú de Potencia ===\n");
+  printf("1. Potencia de un número\n");
+  printf("0. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)
@@ -99,6 +108,14 @@ void getBasicIntegerOperation(int *number1, int *number2)
   scanf("%d", number1);
   printf("Ingresa el segundo número:\n");
   scanf("%d", number2);
+}
+
+void getPowNumberOperation(float *number1, float *number2)
+{
+  printf("Ingresa numero:\n");
+  scanf("%f", number1);
+  printf("Ingresa la potencia\n");
+  scanf("%f", number2);
 }
 
 /*  SECCION: RESULTADOS */

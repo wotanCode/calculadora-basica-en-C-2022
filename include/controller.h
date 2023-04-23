@@ -8,5 +8,6 @@ void multiplyMenuC();
 void divideMenuC();
 
 void moduleMenuC();
+void powMenuC();
 
 #endif

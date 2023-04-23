@@ -37,7 +37,7 @@ void mainMenuC()
       break;
 
     case 6:
-      multiplyMenuC();
+      powMenuC();
       break;
 
     case 7:
@@ -207,6 +207,35 @@ void moduleMenuC()
     case 1:
       getBasicIntegerOperation(&num1, &num2);
       result = module(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 0:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 0);
+}
+
+void powMenuC()
+{
+  float num1, num2, result;
+  int option;
+
+  do
+  {
+    powMenuV();
+    scanf("%d", &option);
+    switch (option)
+    {
+    case 1:
+      getPowNumberOperation(&num1, &num2);
+      result = powFn(num1, num2);
       showResult(result);
       waitforUserInteraction();
       break;
