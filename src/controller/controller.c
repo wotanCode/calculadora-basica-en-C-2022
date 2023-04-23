@@ -27,10 +27,7 @@ void mainMenuC()
 
     default:
       printf("Opción inválida, intente de nuevo.\n");
-      getchar();
-      int c;
-      while ((c = getchar()) != '\n' && c != EOF)
-        ;
+      waitforUserInteraction();
       break;
     }
 
