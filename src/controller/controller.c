@@ -29,7 +29,7 @@ void mainMenuC()
       break;
 
     case 4:
-      multiplyMenuC();
+      divideMenuC();
       break;
 
     case 5:
@@ -145,6 +145,37 @@ void multiplyMenuC()
     case 1:
       getBasicNumberOperation(&num1, &num2);
       result = multiply(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 2:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 2);
+}
+
+// Controller para la sección de dividir.
+void divideMenuC()
+{
+  float num1, num2, result;
+  int option;
+
+  do
+  {
+    divideMenuV();
+    scanf("%d", &option);
+
+    switch (option)
+    {
+    case 1:
+      getBasicNumberOperation(&num1, &num2);
+      result = divide(num1, num2);
       showResult(result);
       waitforUserInteraction();
       break;

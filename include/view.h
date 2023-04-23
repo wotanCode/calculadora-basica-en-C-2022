@@ -10,6 +10,7 @@ void mainMenuV();
 void addMenuV();
 void subtractMenuV();
 void multiplyMenuV();
+void divideMenuV();
 
 // CAPTURADORES DE OPCIONES
 void getMenuOption(int *option);
