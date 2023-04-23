@@ -1,6 +1,6 @@
 # Calculadora avanzada en lenguaje C
 
-De Avanzado solo tiene el nombre. Realmente esta es una calculadora básica que permite realizar operaciones de suma, resta, multiplicación, división, módulo, potencia, raíz y logaritmos. Este proyecto fue desarrollado como práctica de programación en C. Además de las funciones esenciales, fue desarrollado bajo el patrón de diseño Modelo Vista Controlador (MVC) para hacer del mismo codigo un proyecto escalable.
+De Avanzado solo tiene el nombre. Realmente esta es una calculadora básica que permite realizar operaciones de suma, resta, multiplicación, división, módulo, potencia, raíz y logaritmos. Este proyecto fue desarrollado como práctica de programación en C. Además de las funciones esenciales, fue desarrollado bajo el patrón de diseño Modelo Vista Controlador (MVC) para hacer del mismo, un proyecto escalable.
 
 ## Requisitos
 
