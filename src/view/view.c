@@ -24,10 +24,10 @@ void mainMenuV()
   printf("=== MENU ===\n");
   // printf("1. Sumar\t2. Restar\t3. Multplicar\t4. Dividir\n");
   printf("%-15s %-15s %-15s %-15s\n", "1. Sumar", "2. Restar", "3. Multiplicar", "4. Dividir");
-  printf("%-15s %-15s %-15s %-15s\n", "5. Modulo", "6. Potencia", "7. Raiz", "8. Logaritmo");
+  printf("%-15s %-15s %-15s %-15s\n", "5. Modulo", "6. Potencia", "7. Raiz", "8. Logaritmo\n");
 
   printf("9. Acerca de...\n");
-  printf("0. Salir.\n");
+  printf("0. Salir.\n\n");
 }
 
 // Menu de la opcion sumar
@@ -36,7 +36,7 @@ void addMenuV()
   clearScreen();
   printf("=== Menú de Suma ===\n");
   printf("1. Sumar dos números\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -45,7 +45,7 @@ void subtractMenuV()
   clearScreen();
   printf("=== Menú de Resta ===\n");
   printf("1. Restar dos números\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -54,7 +54,7 @@ void multiplyMenuV()
   clearScreen();
   printf("=== Menú de multiplicar ===\n");
   printf("1. Multiplicar dos números\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -63,7 +63,7 @@ void divideMenuV()
   clearScreen();
   printf("=== Menú de dividir ===\n");
   printf("1. Dividir dos números\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -72,7 +72,7 @@ void moduleMenuV()
   clearScreen();
   printf("=== Menú de Modulo ===\n");
   printf("1. Modulo de dos números\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -81,7 +81,7 @@ void powMenuV()
   clearScreen();
   printf("=== Menú de Potencia ===\n");
   printf("1. Potencia de un número\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -90,7 +90,7 @@ void rootMenuV()
   clearScreen();
   printf("=== Menú de raices ===\n");
   printf("1. Raiz de un número\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -100,7 +100,7 @@ void logMenuV()
   printf("=== Menú de logaritmo ===\n");
   printf("1. Logaritmo neperiano de un número\n");
   printf("2. Logaritmo base variable de un número\n");
-  printf("0. Volver al menú principal\n");
+  printf("0. Volver al menú principal\n\n");
   printf("Selecciona una opción: ");
 }
 
@@ -110,8 +110,8 @@ void aboutMenuV()
   printf("=== Acerca de... ===\n");
   printf("Este programa ha sido creado por Pedro Yanez\n");
   printf("GITHUB: https://github.com/wotanCode\n");
-  printf("Repositorio del proyecto: https://github.com/wotanCode/calculadora-avanzada-en-C\n\n");
-  printf("LICENCIA: Unlicense");
+  printf("Repositorio del proyecto: https://github.com/wotanCode/calculadora-avanzada-en-C\n");
+  printf("LICENCIA: Unlicense\n\n");
 }
 
 /*  SECCION: CAPTURADORES DE OPCIONES */
