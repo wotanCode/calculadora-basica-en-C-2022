@@ -49,6 +49,15 @@ void subtractMenuV()
   printf("Selecciona una opción: ");
 }
 
+void multiplyMenuV()
+{
+  clearScreen();
+  printf("=== Menú de multiplicar ===\n");
+  printf("1. Multiplicar dos números\n");
+  printf("2. Volver al menú principal\n");
+  printf("Selecciona una opción: ");
+}
+
 /*  SECCION: CAPTURADORES DE OPCIONES */
 // Capturar opcion seleccionada de un menu
 void getMenuOption(int *option)

@@ -24,6 +24,34 @@ void mainMenuC()
       subtractMenuC();
       break;
 
+    case 3:
+      multiplyMenuC();
+      break;
+
+    case 4:
+      multiplyMenuC();
+      break;
+
+    case 5:
+      multiplyMenuC();
+      break;
+
+    case 6:
+      multiplyMenuC();
+      break;
+
+    case 7:
+      multiplyMenuC();
+      break;
+
+    case 8:
+      multiplyMenuC();
+      break;
+
+    case 9:
+      multiplyMenuC();
+      break;
+
     case 0:
       printf("Saliendo del programa...\n");
       getchar();
@@ -86,6 +114,37 @@ void subtractMenuC()
     case 1:
       getBasicNumberOperation(&num1, &num2);
       result = subtract(num1, num2);
+      showResult(result);
+      waitforUserInteraction();
+      break;
+
+    case 2:
+      clearScreen();
+      return;
+    default:
+      printf("Opción inválida, intente de nuevo.\n");
+      waitforUserInteraction();
+      clearScreen();
+    }
+  } while (option != 2);
+}
+
+// Controller para la sección de multiplicar.
+void multiplyMenuC()
+{
+  float num1, num2, result;
+  int option;
+
+  do
+  {
+    multiplyMenuV();
+    scanf("%d", &option);
+
+    switch (option)
+    {
+    case 1:
+      getBasicNumberOperation(&num1, &num2);
+      result = multiply(num1, num2);
       showResult(result);
       waitforUserInteraction();
       break;
