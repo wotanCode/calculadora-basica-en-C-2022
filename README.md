@@ -14,7 +14,7 @@ Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es co
 1. Clona el repositorio con el siguiente comando:
 
     ```
-    git clone https://github.com/tu-usuario/calculadora-avanzada-en-C.git
+    git clone https://github.com/tu-usuario/calculadora-basica-en-C-2022.git
     ```
 
 2. Abre Visual Studio Code y carga el proyecto
@@ -23,20 +23,6 @@ Este proyecto fue elaborado usando el sistema operativo macOS. Sin embargo es co
 
 4. Disfrute.
 
-## Autor
-
-- Pedro Yanez
-
 ## Licencia
 
 Este proyecto está licenciado bajo la: Unlicence. Es decir que puedes usar este código para lo que quieras y no tienes por qué darme ningún crédito. No me lo agradezcas, es mi contribución para la humanidad. Consulta el archivo LICENSE para más detalles que se encuentra en este mismo proyecto.
-
-<hr/>
-<h3>¡Sigueme en mis redes!</h3>
-
-[![GitHub Followers](https://img.shields.io/github/followers/wotanCode?style=social)](https://github.com/wotanCode)
-[![GitHub Stars](https://img.shields.io/github/stars/wotanCode?style=social)](https://github.com/wotanCode)
-[![Youtube](https://img.shields.io/badge/Youtube-FF0000?&logo=Youtube&logoColor=white&labelColor=101010)](https://www.youtube.com/channel/UCwISu2hFg7EpOIZ8aV7iS6g?sub_confirmation=1)
-[![Linkedin](https://img.shields.io/badge/Linkedin-00d8fd?&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/pedro-yanez/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?&logo=instagram&logoColor=white&labelColor=101010)](https://www.instagram.com/pedroelhumano/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?&logo=twitter&logoColor=white&labelColor=101010)](https://www.twitter.com/pedroelhumano)
